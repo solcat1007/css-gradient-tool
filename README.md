@@ -1,25 +1,38 @@
-# css-gradient-tool
+# CSS 渐变生成器
 
-CSS gradient generator - linear/radial/conic visualization
+> CSS 渐变可视化编辑器，线性/径向渐变实时预览，一键复制标准 CSS
 
-## Features
+## 功能概览
 
-Pure frontend tool - no server required, open in browser and use.
+- **线性渐变（linear-gradient）角度 0-360° 滑块调节**
+- **径向渐变（radial-gradient）椭圆/圆形 + 9 种起始位置**
+- **最多 8 个色标节点，取色器调色 + 滑块调位置**
+- **12 组精美预设模板（日落/海洋/极光/森林/星空等）**
+- **输出兼容 -webkit- / -moz- 前缀的生产级 CSS**
 
-## Usage
+## 操作说明
 
-1. Download index.html
-2. Open in browser
-3. Start using!
+1. 打开 index.html（浏览器直接运行，无需服务器）
+2. 按界面引导输入/操作
+3. 结果实时预览，支持一键复制导出
 
-Or visit GitHub Pages (if configured).
+## 技术栈
 
-## Tech Stack
+- **HTML5**：语义化结构
+- **CSS3**：白色极简主题，Flex/Grid 布局
+- **Vanilla JavaScript**：纯原生代码，零依赖
+- **ES6+**：sync/await、箭头函数、模板字符串
+- **localStorage**：偏好设置持久化
 
-- Pure HTML/CSS/JavaScript
-- Zero dependencies, no build tools
-- White minimalist theme design
+## 兼容性
 
-## License
+| 浏览器 | 支持情况 |
+|---|---|
+| Chrome 90+ | 完全支持 |
+| Firefox 88+ | 完全支持 |
+| Safari 14+ | 完全支持 |
+| Edge 90+ | 完全支持 |
 
-MIT
+## 许可证
+
+MIT (c) solcat1007
